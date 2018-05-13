@@ -16,3 +16,4 @@ IMPORTANT: Edit "compress.bash" and Replace some elements
 5. Go to line #32 & #33, After 'MegaUserMail=' & 'MegaPass=', Enter your Mega.NZ accont user-email & _password_ without any spaces.
 
 ### Now run `./compress.bash` from within the directory
+PS: Don't forget to `chmod +x compress.bash magic.sh` at first then run the script
