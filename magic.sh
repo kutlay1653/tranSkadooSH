@@ -30,8 +30,14 @@ CL_MAG="\033[35m"
 CL_CYN="\033[36m"
 CL_RST="\033[0m"
 
+# Get the latest repo
+mkdir ~/bin
+PATH=~/bin:$PATH
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+chmod a+x ~/bin/repo
+
 # Necessary Application Installation
-sudo apt-get update -y && sudo apt-get install git repo pxz megatools -y
+sudo apt-get update -y && sudo apt-get install git pxz megatools -y
  
 # Github Authorization
 git config --global user.email $GitHubMail
